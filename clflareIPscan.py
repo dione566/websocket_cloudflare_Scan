@@ -55,7 +55,7 @@ def createlog():
 
 
 def save(x):
-	with open('wrCloudflrIp.txt','a') as fl:
+	with open('wrList.txt','a') as fl:
 		fl.write(str(x)+'\n')
 		fl.close()
 		
